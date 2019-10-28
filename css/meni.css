@@ -1,0 +1,36 @@
+ul{
+	float: left;
+	list-style-type: none;
+	margin: 23px;
+}
+
+ul li{
+	display: inline-block;
+	margin: 10px 5px;
+}
+
+ul li a{
+
+text-decoration: none;
+padding: 8px 20px;
+letter-spacing: 2px;
+color: #272727;
+border-bottom: 1px solid #272727;
+transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #ff3c64;
+	border-bottom: 1px solid #ff3c64;
+	color: #fff;
+	}
+
+ul li.active a{
+	border: 1px solid #000;
+	color: #000;
+}
+
+.logo{
+	margin: 22px 50px;
+	height: 100px;
+}
